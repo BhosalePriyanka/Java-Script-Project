@@ -1,0 +1,65 @@
+.clock{
+	width:400px;
+	height:400px;
+	background-color: pink;
+	position: relative;
+	border-radius: 50%;
+	text-align: center;
+	margin:auto;
+	border:1px solid;
+}
+.number{
+	font-size:25px;
+	transform: rotate(calc(var(--r)*1deg));
+	position: absolute;
+	width:100%;
+	height: 100%;
+}
+.N1{--r:30;}
+.N2{--r:60;}
+.N3{--r:90;}
+.N4{--r:120;}
+.N5{--r:150;}
+.N6{--r:180;}
+.N7{--r:210;}
+.N8{--r:240;}
+.N9{--r:270;}
+.N10{--r:300;}
+.N11{--r:330;}
+.N12{--r:360;}
+
+#handMin {
+	left:50%;
+	bottom: 50%;
+	transform-origin: bottom;
+	transform: translate(-50%);
+	position: absolute;
+	border-top-right-radius:100%;
+	border-top-left-radius: 100%;
+	width:10px;height: 35%;background-color: black;
+}
+
+#handHr {
+	left:50%;
+	bottom: 50%;
+	transform-origin: bottom;
+	transform: translate(-50%);
+	position: absolute;
+	border-top-right-radius:100%;
+	border-top-left-radius: 100%;
+	width:11px;height:28%;background-color: red;
+}
+
+#handSec {
+	left:50%;
+	bottom: 50%;
+	transform-origin: bottom;
+	transform: translate(-50%);
+	position: absolute;
+	border-top-right-radius:100%;
+	border-top-left-radius: 100%;
+	width:3px;height: 45%;background-color: black;
+}
+
+
+.point{ background-color: black;width:40px;height: 40px;border-radius: 50%;left: 50%;position: absolute;bottom: 50%;transform: translate(-50%,40%);}

@@ -1,0 +1,23 @@
+#back{
+	background: url(back.jpg);
+	background-size: cover;
+	width:auto;
+	height:500px;
+}
+#road{
+	background: url(road.jpg);
+}
+
+#btn{
+	width:100px;
+	height:80px;
+	border-radius: 15px;
+	background-color: yellow;
+	margin-top:50px;
+}
+#dbtn{
+
+display:flex;
+justify-content: center;
+
+}
